@@ -25,6 +25,19 @@ button {
     /* font-weight: bold; */
 
 }
+.main2{ 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    width: 350px;
+    max-height: 70vh;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 body {
     background-color: whitesmoke;
@@ -151,4 +164,13 @@ a {
     justify-content: center;
     margin: auto;
     
+}
+
+.forgot{
+   margin: 20px;
+    font-size: small;
+}
+#forgot{
+    padding: 20px;
+    margin-top: 20px;
 }

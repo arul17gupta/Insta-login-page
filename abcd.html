@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Sacramento&display=swap');
+    </style>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="Images/logo.png">
     <title>Login • Instagram</title>
 </head>
 
 <body>
-    <div class="main">
-        <img src="Images/logoname.png" alt="" class="logoname" height="70px">
+    <div class="main2">
+        <img src="Images/logoname.png" alt="" class="logoname" height="100px">
         <div class="input">
-            <input type="text" placeholder="Phone,Username,Email">
+            <input type="text" placeholder="Phone number,username,email">
             <input type="password" placeholder="Password">
         </div>
         <button class="btn">Log In</button>
@@ -25,15 +28,19 @@
             <span>
                 <hr></span>
         </div>
-        <span><img src="Images/facebook 1.png" alt="" height="15px"></span>
-        <span>Log in with Facebook</span> 
-        <a href="" class="forgot">Forgot password</a>
-
+        <div class="forgot">
+          <p><img src="Images/facebook 1.png" alt="" height="15px">
+            Log in with Facebook 
+                <br>
+                <a href="" id="forgot">Forgot password?</a></p>  
+    
+        </div>
+       
     </div>
 
-<div>
-
-</div>
+    <div class="last">
+        <p id="login"> Don't have an account? <a href="index.html" class="login">Sign up</a></p>
+    </div>
 
     <p id="get">Get the app.</p>
     <img src="Images/appstore.png" alt="" class="appstore">
